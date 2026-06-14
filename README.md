@@ -1,1 +1,1 @@
-🔗 [デモを見る](https://onsen-sento-app.vercel.app)
+実際に触れます→🔗 [デモを見る](https://onsen-sento-app.vercel.app)
