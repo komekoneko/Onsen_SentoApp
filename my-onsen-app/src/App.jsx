@@ -56,7 +56,7 @@ function App() {
           placeholder="温泉・銭湯名 (例:箱根温泉)"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          onKeyDown={(e) => {if(e.key === "Enter") addItem();}}
+          
         />
         <input
           type="text"
