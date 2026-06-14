@@ -1,0 +1,121 @@
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: sans-serif;
+}
+ 
+.title {
+  text-align: center;
+}
+ 
+.form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+ 
+.input,
+.select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+ 
+.input-name {
+  flex: 3;
+}
+ 
+.input-area {
+  flex: 2;
+}
+
+.input::placeholder {
+  font-size: 0.74rem;
+}
+
+ 
+.add-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #3b82f6;
+  color: #fff;
+  cursor: pointer;
+}
+ 
+.add-btn:hover {
+  background: #2563eb;
+}
+ 
+.filter {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+ 
+/* 一覧 */
+.list {
+  list-style: none;
+  padding: 0;
+}
+ 
+.list li {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+ 
+/* 切り替え・削除ボタン */
+.card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+ 
+.card-actions button {
+  padding: 4px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+}
+ 
+.card-actions button:hover {
+  background: #f3f3f3;
+}
+
+.filter-btn {
+  opacity: 0.4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+.filter-onsen  { background: #f0a500; }
+.filter-sento  { background: #4a90d9; }
+.filter-all    { background: #888; }
+
+.filter-btn.active {
+  opacity: 1;
+}
+
+span {
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+  margin-left: 6px;
+}
+
+.onsen {
+  background: #f0a500;
+}
+
+.sento {
+  background: #4a90d9;
+}
