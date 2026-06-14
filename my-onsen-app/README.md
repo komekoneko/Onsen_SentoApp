@@ -1,18 +1,36 @@
-# React + Vite
+♨️ 自分の好きな温泉・銭湯リスト
+自分が「行きたい」「行った」温泉・銭湯を記録・管理できる、React で作った個人用のコレクションアプリです。
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+概要
+温泉と銭湯が好きで、「これから行ってみたい場所」と「もう行った場所」を分けて管理したくて作りました。気になる温泉・銭湯を登録し、種類（温泉 / 銭湯）で絞り込んだり、訪問状況を切り替えたりできます。
 
-Currently, two official plugins are available:
+主な機能
+温泉・銭湯の登録（名前・場所・種類）
+種類で絞り込み（全て / 温泉 / 銭湯）
+「行きたい / 行った」のステータス切り替え
+登録した項目の削除
+Enter キーでの追加
+未入力チェック（空のまま追加しようとすると注意メッセージを表示）
+使用技術
+React
+Vite
+JavaScript
+CSS
+動かし方
+bash
+# リポジトリを取得したら、アプリのフォルダへ移動
+cd my-onsen-app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 必要なパッケージをインストール
+npm install
 
-## React Compiler
+# 開発サーバーを起動
+npm run dev
+起動後、ターミナルに表示される http://localhost:5173 をブラウザで開くと使えます。
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+今後の予定
+localStorage を使ったデータの永続化（リロードしても消えないようにする）
+訪問日・メモ・お気に入り度（★）の追加
+画面デザインの改善
+Web 上へのデプロイ（誰でも触れるデモの公開）
 
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
