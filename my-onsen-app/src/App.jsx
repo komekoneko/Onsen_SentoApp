@@ -64,7 +64,6 @@ function App() {
           placeholder="場所 (例:神奈川県箱根町)"
           value={area}
           onChange={(e) => setArea(e.target.value)}
-          onKeyDown={(e) => {if(e.key === "Enter") addItem();}}
         />
         <select
           className="select"
